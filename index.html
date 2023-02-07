@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styling.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <title>Arkanoid</title>
+    </head>
+    <body>
+        <div id="gameOver">
+            GAME OVER
+            <button id="refBtn" onclick="refreshPage()">Click here to refresh the page</button>
+        </div>
+        <div class="container">
+            <div id="lives">
+                Lives: &nbsp; &nbsp; 
+                <i id="heart"></i>      
+            </div>
+            <canvas id="canvas" width="700" height="700"></canvas>
+            <button class="startBtn" onclick="startGame()">Click here to start</button>
+        </div>
+        <script type="text/javascript" src="script.js">
+        </script>
+    </body>
+</html>
