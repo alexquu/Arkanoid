@@ -114,6 +114,7 @@ const brickCollision = () => {
     }
 
     if(y >= shipY + 1) {
+        y = 0;
         setLives();
         document.location.reload();
     }
